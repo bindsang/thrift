@@ -25,6 +25,7 @@
   },
   "files": [
     "lib/nodejs/lib/thrift",
+    "lib/nodejs/lib/types",
     "lib/nodejs/README.md"
   ],
   "directories": {
@@ -54,5 +55,6 @@
   "scripts": {
     "cover": "lib/nodejs/test/testAll.sh COVER",
     "test": "lib/nodejs/test/testAll.sh"
-  }
+  },
+  "types": "./lib/nodejs/lib/types/index.d.ts"
 }
